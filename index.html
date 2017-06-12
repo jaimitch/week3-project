@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <form name="calculator">
+      <div class="buttonsrow-1">
+        <button id="clear">C</button>
+        <input type="text" name="display" readonly>
+      </div>
+      <div class="buttonsrow-2">
+        <button id="integer" value="7" onclick="math7()">7</button>
+        <button id="integer" value="8" onclick="math6()">8</button>
+        <button id="integer" value="9" onclick="math9()">9</button>
+        <button id="operator" value="/" onclick="math/()">/</button>
+    </div>
+    <div class="buttonsrow-3">
+        <button id="integer" value="4" onclick="math4()">4</button>
+        <button id="integer" value="5" onclick="math5()">5</button>
+        <button id="integer" value="6" onclick="math6()">6</button>
+        <button id="operator" value="*" onclick="math*()">x</button>
+    </div>
+    <div class="buttonsrow-4">
+        <button id="integer" value="1" onclick="math1()">1</button>
+        <button id="integer" value="2" onclick="math2()">2</button>
+        <button id="integer" value="3" onclick="math3()">3</button>
+        <button id="operator"value="-"onclick="math-()">-</button>
+    </div>
+    <div class="buttonsrow-5">
+        <button id="integer" value="0" onclick="math0()">0</button>
+        <button id="integer" value="." onclick="math.()">.</button>
+        <button id="integer" value="=" onclick="math=()">=</button>
+        <button id="operator" value="+" onclick="math+()">+</button>
+    </div>
+   </form>
+ </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

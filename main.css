@@ -1,0 +1,90 @@
+.container {
+   display: flex;
+   width: 400px;
+   flex-wrap: wrap;
+   border: 5px solid grey; 
+   align-content: stretch;
+}
+
+.buttonsrow-1 {
+    flex-basis: 100%;
+    display: flex;
+    width: 400px;
+    
+}
+
+.buttonsrow-1 button {
+    flex-basis: 25%;
+    padding: 30px;
+    background-color: #66cc66;
+    font-size: 15px;
+    color: white;
+    font-size: 24px;
+}
+.buttonsrow-1 input {
+    flex-basis: 75%;
+    padding: 30px;
+    background-color: #66cc66;
+    font-size: 15px;
+    color: white;
+}
+
+.buttonsrow-2 {
+flex-basis: 100%;
+display: flex;
+width: 400px;
+}
+
+.buttonsrow-2 button{
+    flex-basis: 25%;
+    padding: 25px;
+}
+
+.buttonsrow-3 {
+flex-basis: 100%;
+display: flex;
+width: 400px;
+}
+
+.buttonsrow-3 button {
+    flex-basis: 25%;
+    padding: 25px;
+}
+
+.buttonsrow-4 {
+flex-basis: 100%;
+display: flex;
+width: 400px;
+}
+
+.buttonsrow-4 button{
+    flex-basis: 25%;
+    padding: 25px;
+}
+
+.buttonsrow-5 {
+flex-basis: 100%;
+display: flex;
+width: 400px;
+}
+
+.buttonsrow-5 button {
+    flex-basis: 25%;
+    padding: 25px;
+}
+
+#integer {
+    background-color: #66cc66;
+    font-size: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+#operator {
+    background-color: #c6ecc6;
+    font-size: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+
